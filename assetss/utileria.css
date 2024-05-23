@@ -1,6 +1,41 @@
-div img{
-border-radius: 50%;
-width: 50px;
-height: 50px;
+.cabeza{
+    h1{
+        font-size: 40px;
+        font-style: italic; color: #29006b;
+    }
+        display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+    img{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        }
+        cabeza{
+            img{
+                justify-items: flex-end;
+                
+            }
+        }        
 }
+.cuerpo{
+    img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    cuerpo{
+                display: flex;
+                img{
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    }
+            }
+}
+.content-box{
+    padding: 150px;
+    border: 2px solid #29006b;
+    border-radius: 5px;
 
+}
